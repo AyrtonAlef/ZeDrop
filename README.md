@@ -9,4 +9,4 @@
 ![Figure 1. ZeDropSIM flowchart](FlowchartZeDropSIM.png)
 <p><div align="center"><strong>Figure 1. ZeDropSIM flowchart. </strong></div></p>
 
-<p>ZeDropSIM was developed in Matlab. All the routines are present in ZeDropSIM folder. To start ZeDropSIM, MainCode_ZeDropSIM.m file must be run. </p>
+<p>ZeDropSIM was developed in Matlab. All the routines are present in ZeDropSIM folder. To start ZeDropSIM, <em>MainCode_ZeDropSIM.m</em> file must be run. </p>
