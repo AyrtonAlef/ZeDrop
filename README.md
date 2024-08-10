@@ -7,6 +7,6 @@ Simulation is important for understanding drop behavior in different configurati
 Within this scope, ZeDropSIM was developed for verifying and simulating different drop configurations, such as pendant, sessile, and inclined drops. The program has several functionalities, such as two-dimensional (2D) and three-dimensional (3D) drop profiles can be generated, binary and grayscale images can be simulated, and sequences of consecutive images can be created to simulate quasi-static experiments. In addition, several sources of error can be added to the simulated image like lack of sharpness, lack of contrast, non-uniform illumination, random disturbance in the drop profile, vertical misalignment of the camera, uniform noise, Gaussian noise, impulse noise and satellite droplets. Figure 1 presents a flowchart that summarizes, according to the available drop configurations, all the functionalities offered by ZeDropSIM.
 
 ![Figure 1. ZeDropSIM flowchart](FlowchartZeDropSIM.png)
-<center>**Figure 1**. ZeDropSIM flowchart</center>
+**Figure 1**. ZeDropSIM flowchart
 
 ZeDropSIM was developed in Matlab. All the routines are present in ZeDropSIM folder. To start ZeDropSIM, MainCode_ZeDropSIM.m file must be run. 
