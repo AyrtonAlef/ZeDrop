@@ -17,16 +17,26 @@
 
 <p><div style="text-align: justify">Given this scenario, the ZeDropACT solution was developed. ZeDropACT aims to provide an affordable solution for performing tests involving drops to obtain reliable measurements of surface properties using optical methods. ZeDropACT consists of independent hardware and software solutions. In terms of hardware, a low-cost, modular goniometer project capable of performing different tests was designed, while in terms of software, a program capable of controlling different process variables and following different test protocols was developed.</div></p>
 
+<p><div style="text-align: justify">The lab-design goniometer was based on a stereomicroscope found in most laboratories. It consists of six main systems: (i) image acquisition, (ii) illumination, (iii) volumetric dispensing, (iv) solid substrate positioning, (v) solid substrate inclination and (vi) control. Depending on the test to be performed and the drop configuration to be analyzed, it is not necessary to manufacture all the modules. The solid substrate positioning and inclination systems are interchangeable, with the first being indicated for the evaluation of sessile drops, while the second for the evaluation of inclined drops. For the evaluation of pendant drops, it is not necessary to use either of these two systems.</div></p>
+
+<p><div style="text-align: justify">In its complete version, the lab-design goniometer allows the control of several process variables, such as syringe positioning, drop volume and positioning/inclination of the solid substrate. Thus, it allows the performance of static, quasi-static and dynamic tests involving pendant, sessile and inclined drops. Figure 2 shows a real image of the developed goniometer with the solid substrate positioning module connected.</div></p>
+
+<p><div style="text-align: justify">Further details of the lab-design goniometer can be found in the lab-design goniometer folder. This folder contains models of the components that can be obtained by 3D printing.</div></p>
+
+![Figure 2. Lab-design goniometer with solid substrate positioning module connected](FigureZeDropACTHardware.png)
+<p><div align="center"><strong>Figure 2. Lab-design goniometer with solid substrate positioning module connected. </strong></div></p>
+
+
 <p><div style="text-align: justify">With ZeDropACT software, the user has access to adjustment and test routines. The adjustment routines allow fine adjustment of the different systems that make up the goniometer, while the test routines execute previously established procedures for image acquisition and subsequent determination of surface properties by optical methods.</div></p>
 
 <p><div style="text-align: justify">It is possible to perform intermittent and continuous tests, involving pendant, sessile and inclined drops. It is important to highlight that for certain types of tests, such as quasi-static and dynamic, it is necessary to use electronic, mechanical and optical components that allow more refined and rigorous control of the process variables.</div></p>
 
-<p><div style="text-align: justify">After starting the ZeDropACT software, a menu is displayed showing all the program's functionalities. Figure 2 shows a flowchart containing all the options offered. Options 1 to 8 are related to the adjustment routines, while options 9 to 14 are linked to the execution of the test routines.</div></p>
+<p><div style="text-align: justify">After starting the ZeDropACT software, a menu is displayed showing all the program's functionalities. Figure 3 shows a flowchart containing all the options offered. Options 1 to 8 are related to the adjustment routines, while options 9 to 14 are linked to the execution of the test routines.</div></p>
 
-![Figure 2. ZeDropACT flowchart](FlowchartZeDropACT.png)
-<p><div align="center"><strong>Figure 2. ZeDropACT flowchart. </strong></div></p>
+![Figure 3. ZeDropACT flowchart](FlowchartZeDropACT.png)
+<p><div align="center"><strong>Figure 3. ZeDropACT flowchart. </strong></div></p>
 
 <p><div style="text-align: justify">ZeDropSIM was developed in Matlab. All the routines are present in ZeDropSIM folder. To start ZeDropSIM, MainCode_ZeDropSIM.m file must be run.</div></p>
 
-<p><div style="text-align: justify">The ZeDropACT software does not contain drop shape analysis routines. The main result produced by the software is drop image. In order to identify the drop profile, analyze its shape and determine surface properties, it is necessary to use another solution. The ZeDropEVAL sofwtare can be used for this purpose.</div></p>
+<p><div style="text-align: justify">The ZeDropACT software does not contain drop shape analysis routines. The main result produced by the software is drop image. In order to identify the drop profile, analyze its shape and determine surface properties, it is necessary to use another solution. The ZeDropEVAL software can be used for this purpose.</div></p>
 
