@@ -26,5 +26,7 @@
 ![Figure 2. ZeDropACT flowchart](FlowchartZeDropACT.png)
 <p><div align="center"><strong>Figure 2. ZeDropACT flowchart. </strong></div></p>
 
+<p><div style="text-align: justify">ZeDropSIM was developed in Matlab. All the routines are present in ZeDropSIM folder. To start ZeDropSIM, MainCode_ZeDropSIM.m file must be run.</div></p>
+
 <p><div style="text-align: justify">The ZeDropACT software does not contain drop shape analysis routines. The main result produced by the software is drop image. In order to identify the drop profile, analyze its shape and determine surface properties, it is necessary to use another solution. The ZeDropEVAL sofwtare can be used for this purpose.</div></p>
 
